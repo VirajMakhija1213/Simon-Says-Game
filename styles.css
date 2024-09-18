@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: #fffdfd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.outer {
+    margin: auto;
+    height: 470px;
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.inner {
+    height: 170px;
+    width: 170px; 
+    border-radius: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+/* Colors for buttons */
+.one {
+    background-color: #e74c3c;
+}
+
+.two {
+    background-color: #16a085;
+}
+
+.three {
+    background-color: #f39c12;
+}
+
+.four {
+    background-color: #2980b9;
+}
+
+.inner:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.flash {
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.8);
+}
