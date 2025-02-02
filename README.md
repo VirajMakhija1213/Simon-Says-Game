@@ -1,5 +1,5 @@
 # Simon-Says-Game
-# https://viraj1213.github.io/Simon-Says-Game/
+# https://virajmakhija1213.github.io/Simon-Says-Game/
 
 
 This is a simple implementation of the classic Simon Says memory game, where the user must remember and repeat an increasingly long sequence of colors. The game has been built using HTML, CSS, and JavaScript.
